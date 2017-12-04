@@ -1,6 +1,9 @@
 ---
+eureka:
+  client:
+    shouldRegisterWithEureka: false
 fortuneService:
   scheme: http
-  address: http://fortuneservice-presavage-ictus.apps.selma.cf-app.com:80
+  address: fortuneservice
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
