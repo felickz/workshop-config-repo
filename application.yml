@@ -7,3 +7,8 @@ Logging:
   Console:
     LogLevel:
       Default: Information
+
+spring:
+  cloud:
+    config:
+      validate_certificates: false
